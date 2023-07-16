@@ -59,6 +59,14 @@
     min-height: calc(100vh - 15rem);
   }
 
+  .hero__title {
+    margin-bottom: 2rem;
+  }
+
+  .hero__img-box {
+    margin-top: 8rem;
+  }
+
   .section-features {
     flex-direction: column-reverse;
   }
@@ -88,5 +96,33 @@
 
   .section-facts {
     margin-top: 20rem;
+  }
+}
+
+/**************************/
+/* BELOW 700px (Tablets) */
+/**************************/
+@media (max-width: 43.75em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/**************************/
+/* BELOW 600px (Phones) */
+/**************************/
+@media (max-width: 32.5em) {
+  .container {
+    max-width: 100%;
+    padding: 0 4rem;
+    margin: 0 auto 18rem;
+  }
+
+  .header {
+    padding: 5rem 4rem;
+  }
+
+  .section-hero {
+    padding: 6rem 4rem 0;
   }
 }
