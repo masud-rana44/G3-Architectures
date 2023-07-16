@@ -109,7 +109,7 @@
 }
 
 /**************************/
-/* BELOW 600px (Phones) */
+/* BELOW 520px (Phones) */
 /**************************/
 @media (max-width: 32.5em) {
   .container {
@@ -124,5 +124,42 @@
 
   .section-hero {
     padding: 6rem 4rem 0;
+  }
+
+  .features__gallery {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .features__gallery img {
+    width: 100%;
+  }
+
+  .section-quick-list .btn {
+    text-align: center;
+    padding: 2.4rem;
+  }
+
+  .footer {
+    width: 90%;
+    margin-bottom: 10rem;
+    padding: 4rem 1rem;
+  }
+}
+
+/**************************/
+/* BELOW 300px (Phones) */
+/**************************/
+@media (max-width: 18.75em) {
+  .header {
+    padding: 5rem 2rem;
+  }
+
+  .container {
+    padding: 0 2rem;
+  }
+
+  .section-hero {
+    padding: 6rem 2rem 0;
   }
 }
