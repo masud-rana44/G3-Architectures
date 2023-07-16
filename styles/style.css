@@ -31,6 +31,17 @@ body img {
 /* ***************** */
 /* GENERAL STYLES */
 /* ***************** */
+.container {
+  max-width: 130rem;
+  margin: 0 auto 13rem;
+}
+
+.heading__secondary {
+  color: var(--dark-01);
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
 .paragraph {
   color: var(--dark-03);
   font-size: 1.6rem;
@@ -47,6 +58,11 @@ body img {
   background: var(--color-primary);
   color: #fff;
   padding: 1.5rem 3rem;
+
+  /* button */
+  cursor: pointer;
+  border: none;
+  outline: none;
 }
 
 .mb-lg {
@@ -117,17 +133,38 @@ body img {
 }
 
 .hero__img-box {
-  margin-top: 50px;
+  margin-top: 5rem;
 }
 
 /* ***************** */
 /* FEATURES SECTION */
 /* ***************** */
 .section-features {
+  display: flex;
+  align-items: center;
+  gap: 6.4rem;
+  margin-top: 8rem;
 }
 
 .features__gallery {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.8rem;
 }
 
 .features__img {
+  width: 32rem;
+  height: 32rem;
+  /* object-fit: contain; */
+}
+
+.features__content {
+  max-width: 50rem;
+}
+
+/* ***************** */
+/* QUICK LIST SECTION */
+/* ***************** */
+.section-quick-list {
 }
